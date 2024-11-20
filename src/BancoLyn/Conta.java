@@ -16,7 +16,6 @@ public class Conta {
     }
 
     Conta() {
-        
     }
 
     boolean sacar(double valor) {
@@ -35,13 +34,23 @@ public class Conta {
         return true;
     }
 
+    boolean transferir(Conta outra,double valor) {
+
+        if (!this.sacar(valor)) {
+            return false;
+        }
+        outra.depositar(valor);
+        return true;
+    }
+
     void info() {
+        System.out.println("--------------------------------------");
         System.out.println("");
         System.out.println("BANCO LYN");
         System.out.println("Numero da Conta: " + numero);
         System.out.println("Titular da Conta: " + titular);
         System.out.println("Saldo da Conta: R$" + saldo);
         System.out.println("Limite da Conta: R$" + limite);
-        System.out.println("");
+        System.out.println("--------------------------------------");
     }
 }
