@@ -1,4 +1,4 @@
-package BancoLyn;
+package bancolyn;
 
 public class Conta {
 

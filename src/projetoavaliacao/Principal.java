@@ -1,4 +1,4 @@
-package ProjetoAvaliacao;
+package projetoavaliacao;
 
 public class Principal {
 

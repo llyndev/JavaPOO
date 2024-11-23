@@ -1,4 +1,4 @@
-package BancoLyn;
+package bancolyn;
 
 public class BancoL {
     public static void main(String[] args) {
