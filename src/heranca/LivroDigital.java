@@ -30,7 +30,7 @@ public class LivroDigital extends Livro { // Classe
     // Metodo Utilizando super para herdar a classe mãe
     public void imprimirImposto() {
         System.out.println("\nImposto livro Fisico: " + super.imposto());
-        System.out.println("Imposto libro DIgital: " + this.imposto());
+        System.out.println("Imposto libro Digital: " + this.imposto());
     }
 
 }
