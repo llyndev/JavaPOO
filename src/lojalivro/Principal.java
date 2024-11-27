@@ -7,15 +7,15 @@ public class Principal {
 
         //a.infoAutor();
 
-        Livro l = new Livro("AulaPOO", new Autor("Weslley", "weslley.@gmail.com", "Brasileira"), "Ação", 555);
+        Livro l = new LivroDigital("AulaPOO", new Autor("Weslley", "weslley.@gmail.com", "Brasileira"), "Ação", 555, 1024, 300);
 
         l.infoLivro();
 
-        LivroDigital lDigital = new LivroDigital("JavaPOO", a, "Conto", 333, 1024, 300);
+        Livro lDigital = new LivroDigital("JavaPOO", a, "Conto", 333, 1024, 300);
 
         lDigital.infoLivro();
 
-        LivroFisico lFisico = new LivroFisico("JavaPOO", a, "Conto", 333, 5, 3);
+        Livro lFisico = new LivroFisico("JavaPOO", a, "Conto", 333, 5, 3);
 
         lFisico.infoLivro();
     }
