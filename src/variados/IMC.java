@@ -1,3 +1,4 @@
+package variados;
 import java.util.Scanner;
 
 public class IMC {
